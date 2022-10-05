@@ -8,21 +8,24 @@ h1, h2, h3 {
   font-family: Chivo;
 }
 
+
 p {
   color: #404042;
-  opacity: .7;
+  opacity: 1px;
 }
 
 .container {
-  width: 700px;
+  width: 850px;
   margin: auto;
+  text-align: center;
+   background-color: #fff8eb;
 }
 
 .banner {
-  background-image: url('images/background.jpg');
+  background-image: url('images/teste.png');
   background-size: cover;
   background-position: center;
-  padding: 150px 0;
+  padding: 130px 0;
   text-align: center;
 }
 
@@ -30,6 +33,7 @@ p {
   color: white;
   font-size: 45px;
   margin: 0;
+ text-align: center;
 }
 
 .banner p {
@@ -38,17 +42,18 @@ p {
 }
 
 .button-blue {
-  background-color: #1A48E3;
-  color: white;
-  padding: 16px 48px;
-  border-radius: 4px;
+  background-color: #005c1a; 
+  background-color: rgba(205, 206, 207, 0,5);
+  color:whitesmoke;
+  padding: 10px 10px 10px ; 
+  border-radius: 10 px;
   display: inline-block;
   text-decoration: none;
 }
 
 .button-blue:hover {
-  background-color: #0D1EC6;
-  color: white;
+  background-color: white;
+  color: #005c1a;
 }
 
 .card-white {
@@ -79,11 +84,21 @@ p {
 }
 
 .footer {
-  background: skyblue;
+  background: #005c1a;
   text-align: center;
-  padding: 24px 0;
+  padding: 40px 0;
+  width: 850px;
+  height: 50px;
+  font-weight: 900px;
+
+
 }
 
 .footer p {
-  color: darkred;
+  color: white;
+  font-size: 35px;
+  text-decoration: blink;
+  text-align: center;
+  margin: 10px;
+
 }
